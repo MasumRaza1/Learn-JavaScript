@@ -2,13 +2,6 @@
 
 Welcome to the "JavaScript Beginning to Mastery" course! This syllabus will guide you through your journey to mastering JavaScript. 📚
 
-## Video Tutorials
-
-- [Part 1](https://youtu.be/chx9Rs41W6g?si=dUTFZo0WTZMPR187)
-- [Part 2](https://youtu.be/Llsq1y-HWs4?si=WA0pXUL0CT8nh8MO)
-- [Part 3](https://youtu.be/pAl_uGXKXq8?si=cTPtRe0nYt-WWDYB)
-
-
 ## Table of Contents
 
 1. [JavaScript vs EcmaScript](#javascript-vs-ecmascript)
@@ -28,7 +21,8 @@ Welcome to the "JavaScript Beginning to Mastery" course! This syllabus will guid
 15. [HTML and CSS Crash Course](#html-and-css-crash-course)
 16. [Asynchronous JavaScript](#asynchronous-javascript)
 17. [Project Building](#project-building)
-18. [Conclusion](#conclusion)
+18. [Video Tutorials](#video-tutorials)
+
 
 ## Part 1
 
@@ -1382,7 +1376,11 @@ Welcome to the "JavaScript Beginning to Mastery" course! This syllabus will guid
 -  🎉
   
 
- ## Happy coding! 👩‍💻👨‍💻
+ ## Video Tutorials 
+- [Part 1](https://youtu.be/chx9Rs41W6g?si=dUTFZo0WTZMPR187)
+- [Part 2](https://youtu.be/Llsq1y-HWs4?si=WA0pXUL0CT8nh8MO)
+- [Part 3](https://youtu.be/pAl_uGXKXq8?si=cTPtRe0nYt-WWDYB)
+
 
 ## Notes Formate
   <details>
