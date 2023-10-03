@@ -4,24 +4,18 @@ Welcome to the "JavaScript Beginning to Mastery" course! This syllabus will guid
 
 ## Table of Contents
 
-1. [JavaScript vs EcmaScript](#javascript-vs-ecmascript)
-2. [Installation and Setup](#installation-and-setup)
-3. [Basics of Programming in JavaScript](#basics-of-programming-in-javascript)
-4. [Strings and Variables](#strings-and-variables)
-5. [Conditional Statements](#conditional-statements)
-6. [Loops](#loops)
-7. [Arrays](#arrays)
-8. [Objects](#objects)
-9. [Functions](#functions)
-10. [Important Array Methods](#important-array-methods)
-11. [Useful Concepts](#useful-concepts)
-12. [Object-Oriented JavaScript](#object-oriented-javascript)
-13. [How JavaScript Works](#how-javascript-works)
-14. [DOM Tutorial](#dom-tutorial)
-15. [HTML and CSS Crash Course](#html-and-css-crash-course)
-16. [Asynchronous JavaScript](#asynchronous-javascript)
-17. [Project Building](#project-building)
-18. [Video Tutorials](#video-tutorials)
+1. [Basics of Programming in JavaScript](#basics-of-programming-in-javascript)
+2. [Arrays in JavaScript](#arrays-in-javascript)
+3. [Objects in JavaScript](#objects-in-javascript)
+4. [Functions in JavaScript](#functions-in-javascript)
+5. [Important Array Methods](#important-array-methods)
+6. [Useful Concepts](#useful-concepts)
+7. [Object-Oriented JavaScript / Prototypal Inheritance](#object-oriented-javascript--prototypal-inheritance)
+8. [How JavaScript Works](#how-javascript-works)
+9. [DOM Tutorial](#dom-tutorial)
+10. [Asynchronous JavaScript](#asynchronous-javascript)
+11. [Project Building](#project-building)
+12. [Video Tutorials](#video-tutorials)
 
 
 ## Part 1
@@ -226,7 +220,7 @@ Welcome to the "JavaScript Beginning to Mastery" course! This syllabus will guid
 - Switch statements.
 - Introduction to loops.
 
-## Strings and Variables
+## Arrays in JavaScript
 
 <details>
   <summary> <strong>Notes : Strings and Variables 📄 </strong></summary>
