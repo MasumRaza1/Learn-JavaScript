@@ -2,6 +2,12 @@
 
 Welcome to the "JavaScript Beginning to Mastery" course! This syllabus will guide you through your journey to mastering JavaScript. 📚
 
+## Video Tutorials
+
+- [Part 1](https://youtu.be/chx9Rs41W6g?si=dUTFZo0WTZMPR187)
+- [Part 2](https://youtu.be/Llsq1y-HWs4?si=WA0pXUL0CT8nh8MO)
+- [Part 3](https://youtu.be/pAl_uGXKXq8?si=cTPtRe0nYt-WWDYB)
+
 
 ## Table of Contents
 
