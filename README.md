@@ -1,4 +1,4 @@
-# JavaScript Beginning to Mastery Syllabus 🚀
+# JavaScript Beginning to Mastery Syllabus + Notes🚀
 
 Welcome to the "JavaScript Beginning to Mastery" course! This syllabus will guide you through your journey to mastering JavaScript. 📚
 
