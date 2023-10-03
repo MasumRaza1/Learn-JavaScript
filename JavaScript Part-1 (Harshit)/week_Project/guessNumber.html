@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <style>
+         *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background-color: #dbd08f;
+  }
+  
+  .container {
+    width: 400px;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 25px;
+  }
+  
+  h3.title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #093030;
+    margin-bottom: 25px;
+  }
+  
+  p.sub-title {
+    color: #B5BAB8;
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+  
+  p span.number {
+    display: block;
+    color: #093030;
+    font-weight: 600;
+  }
+  
+  
+  .wrapper input.field {
+    width: 300px;
+    line-height: 75px;
+    font-size: 32px;
+    border: none;
+    background-color: #EAF5F6;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #093030;
+    margin-bottom: 25px;
+  }
+  
+  .wrapper input.field:focus {
+    outline: none;
+  }
+  
+  button.resend {
+    background-color: #EAF5F6;
+    border: 2px solid #093030;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 110px 0;
+    cursor: pointer;
+  }
+
+  button.resend:hover {
+    background-color: #EAF5F6;
+    border: 2px solid #093030;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #093030;
+    cursor: pointer;
+  }
+
+  h1{
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #093030;
+    
+  }
+  .container1{
+    width: 400px;
+    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    text-align: center;
+  }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 class="title"> 🤔 Guess The number </h3>
+        <p class="sub-title">
+          Enter the Week Number To Get Name
+          <span class="number">Range : 1 - 50 ❌</span>
+        </p>
+        <div class="wrapper">
+          <input type="text" id="stext" class="field 1" maxlength="2">
+        </div>
+      
+            <button class="resend" onclick="fun()">
+                Submit
+              </button>
+      
+        
+      </div>
+
+    <div class="container1">
+      
+        <h1 id="para">Likh Na Jaldi 🙂</h1>
+        
+       
+    </div>
+   
+
+    
+
+    <script>
+        function fun()
+        {
+            let  userGuess = +document.getElementById("stext").value;
+            let winningNumber = 19;
+               
+                if(userGuess >= 1 && userGuess <= 50)
+                {
+                  if(userGuess >= 1 && userGuess <= 50 && userGuess == winningNumber)
+                {
+                  document.getElementById('para').innerHTML=`${userGuess} is Correct. 🎉`;
+                }
+                else if(userGuess >= 1 && userGuess <= 50 && userGuess > winningNumber)
+                {
+                  document.getElementById('para').innerHTML=`${userGuess} is Too High 🚀 `;
+                }
+                else if(userGuess >= 1 && userGuess <= 50 && userGuess < winningNumber){
+                  document.getElementById('para').innerHTML=`${userGuess} is Too Low 😎`;
+                }
+                }
+                else{
+                  document.getElementById('para').innerHTML=`${userGuess} bsdk awkat me likh laude ! 🥴 `;
+                }
+             
+                  
+                }
+               
+                
+                
+ 
+   
+    
+        
+
+       
+
+     
+
+        
+   
+        
+      
+    </script>
+</body>
+</html>

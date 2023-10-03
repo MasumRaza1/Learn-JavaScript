@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week Name Generator</title>
+    <style>
+         *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background-color: #EAF5F6;
+  }
+  
+  .container {
+    width: 400px;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 25px;
+  }
+  
+  h3.title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #093030;
+    margin-bottom: 25px;
+  }
+  
+  p.sub-title {
+    color: #B5BAB8;
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+  
+  p span.number {
+    display: block;
+    color: #093030;
+    font-weight: 600;
+  }
+  
+  
+  .wrapper input.field {
+    width: 300px;
+    line-height: 75px;
+    font-size: 32px;
+    border: none;
+    background-color: #EAF5F6;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #093030;
+    margin-bottom: 25px;
+  }
+  
+  .wrapper input.field:focus {
+    outline: none;
+  }
+  
+  button.resend {
+    background-color: #EAF5F6;
+    border: 2px solid #093030;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 110px 0;
+    cursor: pointer;
+  }
+
+  button.resend:hover {
+    background-color: #EAF5F6;
+    border: 2px solid #093030;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #093030;
+    cursor: pointer;
+  }
+
+  h1{
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #093030;
+  }
+  .container1{
+    width: 400px;
+    height: 100px;
+    padding-top: 30px;
+    background-color: #ffffff;
+    border-radius: 25px;
+  }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 class="title">Week Name Generator</h3>
+        <p class="sub-title">
+          Enter the Week Number To Get Name
+          <span class="number">like : 1 2 3 4 5 6 7</span>
+        </p>
+        <div class="wrapper">
+          <input type="text" id="stext" class="field 1" maxlength="1">
+        </div>
+      
+            <button class="resend" onclick="fun()">
+                Submit
+              </button>
+      
+        
+      </div>
+
+    <div class="container1">
+      
+        <h1 id="h1"></h1>
+        <h1 id="para"></h1>
+        
+       
+    </div>
+   
+
+    
+
+    <script>
+        function fun()
+        {
+            let text = +document.getElementById("stext").value;
+            switch(text)
+    {
+        case 1:
+       document.getElementById('para').innerHTML="Sunday 😘";
+        break;
+
+        case 2:
+        document.getElementById('para').innerHTML="Monday 🥱";
+        break;
+
+        case 3:
+        document.getElementById('para').innerHTML="Tuesday 😎";
+        break;
+
+        case 4:
+        document.getElementById('para').innerHTML="WednessDay 🤣";
+        break;
+
+        case 5:
+        document.getElementById('para').innerHTML="ThusDay 🤗";
+        break;
+
+        case 6:
+        document.getElementById('para').innerHTML="Friday ❤️";
+        break;
+
+        case 7:
+        document.getElementById('para').innerHTML="Saturday 😁";
+        break;
+
+        default:
+        document.getElementById('para').innerHTML="Fuck you ! 😒";
+        
+
+    }
+ 
+   
+    
+        }
+
+       
+
+     
+    //  let selectWeek = +prompt("Enter the week in number");
+        
+   
+        
+      
+    </script>
+</body>
+</html>
