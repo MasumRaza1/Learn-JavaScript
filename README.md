@@ -43,17 +43,19 @@ Welcome to the "JavaScript Beginning to Mastery" course! This syllabus will guid
 ## Basics of Programming in JavaScript
 <details>
    <summary ><strong>Notes 📄</strong></summary>
-  - **Write a "Hello World" program:**
-    ```javascript
-    console.log("Hello, World!");
-    ```
-    This simple program prints "Hello, World!" to the console, demonstrating the basic structure of a JavaScript program.
+ 
 
   - **Declare variables using `var`:**
     ```javascript
     var myVar;
     ```
     Variables are declared using `var` followed by the variable name. Variables declared with `var` have function-level scope.
+
+     -**Write a "Hello World" program:**
+    ```javascript
+    console.log("Hello, World!");
+    ```
+    This simple program prints "Hello, World!" to the console, demonstrating the basic structure of a JavaScript program.
 
   - **Explore more about variables:**
     ```javascript
